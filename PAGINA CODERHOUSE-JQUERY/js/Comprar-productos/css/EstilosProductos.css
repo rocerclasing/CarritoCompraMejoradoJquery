@@ -1,0 +1,13 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#template-card,img{
+
+    width:800px;
+    height: 800px;
+    line-height: 10px;
+    
+}
+

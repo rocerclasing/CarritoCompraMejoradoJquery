@@ -1,0 +1,14 @@
+/* Interactividad */
+*{
+    margin:0px;
+    padding:0px;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+}
+
+#search{
+    position:relative;
+}

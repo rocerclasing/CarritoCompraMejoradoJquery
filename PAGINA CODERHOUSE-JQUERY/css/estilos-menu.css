@@ -1,0 +1,67 @@
+/* FUENTES */
+/* interactividad  */
+@font-face{
+    font-family: 'Open Sans Condensed', sans-serif;
+    src:url('fonts/OpenSansCondensed-LightItalic');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* REGLAS GENERALES */
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.wrap{
+    width:1200px;
+    margin:0px auto;
+
+}
+/* HEADER - CABECERA */
+
+header{
+    width:100%;
+    height: 70px;
+    background-color: green;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:#ffffff;
+
+}
+
+/* MENU */
+
+#menu{
+    float: right;
+    height: 70px;
+    background:transparent;
+}
+
+#menu ul{
+    position:relative;
+    left: 55px;
+}
+
+#menu ul li{
+    font-size: 15px;
+    display: inline-block;/*se mueve los objetos hacia la drecha*/
+    margin:0px 20px 0px 20px; /*izuierda-derecha-arriba abajo*/
+    letter-spacing: 1px;/*le da un espaciad*/
+    line-height: 70px;
+  
+}
+
+
+#menu ul li a{
+    display:block; /*que trabaje como bloque*/
+    color: white;
+    text-decoration: none;/*quitar raya*/
+    transition: all 200ms;/*animacion*/
+
+}
+/* Al mover el mouse hacia el elemento que suceda un efecto  */
+#menu ul li a:hover{
+    color:#37bcf9;
+    transform: scale(1.2,1.2);/*transforma la animacion*/
+}
+

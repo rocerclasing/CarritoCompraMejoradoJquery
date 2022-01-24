@@ -1,0 +1,208 @@
+/* Interactividad de formacion */
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.contanedor-principal{
+    position:relative;
+    right: 180px;
+}
+
+#titulo{
+    position:relative;
+    text-align: center;
+}
+
+#subtitulo{
+    position:relative;
+    text-align: center;
+    right:280px;
+    top:80px;
+}
+
+#formacion{
+    position:relative;
+    top:100px;
+    left:250px;
+}
+
+#cursos-udemy{
+    position:relative;
+    left:250px;
+    top:100px;
+}
+
+#coderhouse{
+    position: relative;
+    left: 250px;
+    top:100px;
+}
+
+
+/* LENGUAJES */
+
+.contenedor-segundario{
+    position:relative;
+    bottom:5 0px;
+    
+}
+
+/* lenguaje html */
+
+.section-lenjuages{
+    position:relative;
+    left:150px;
+    top:10px;
+    bottom:150px;
+}
+
+#lenguajehtml{
+    position:relative;
+    bottom: 120px;;
+    left:720px;
+}
+
+#lenguajehtml #titulo-html{
+   position:relative;
+   bottom:25px;
+   left:220px;
+}
+
+#html{
+    position:relative;
+    bottom:50px;
+}
+
+/* lenguaje css */
+
+#lenguaje-css{
+    position:relative;
+    bottom:150px;
+    left:720px;
+}
+
+#lenguaje-css #titulo-css{
+  position:relative;
+  bottom: 15px;
+  left:220px;
+  top:60px;
+}
+
+/* lenguaje js */
+
+#lenguajejs{
+    position:relative;
+    bottom:100px;
+    left:860px;
+    
+}
+
+#titulo-js{
+    position:relative;
+    left:80px;
+}
+
+#lenguajejs #java-script-Vainilla{
+    position:relative;
+    right: 140px;
+
+}
+
+
+
+/* imagenes de lenguajes */
+#html5-imagen{
+    position:relative;
+    width:50px;
+    height: 50px;
+    left:400px;
+    bottom:70px;
+}
+
+#css-imagen{
+    position:relative;
+    width:80px;
+    height:80px;
+    left:392px;
+    bottom:10px;
+
+}
+
+#js-imagen{
+    position:relative;
+    width:80px;
+    height: 80px;
+    left:220px;
+    bottom:60px;
+}
+
+#formacion-js{
+    position:relative;
+    left:125px;
+    top:100px;
+}
+
+/* FOOTER */
+
+#footer{
+    position:relative;
+    width: 1700px;
+    height: 370px;
+    border:1px solid brown;
+    background-color:#ffffff;
+
+}
+
+#copy{
+    position:relative;
+    left:500px;
+    top:150px;
+} 
+
+#footer #frase-1{
+    position:relative;
+    left:500px;
+    top:140px;
+}
+
+#footer #redes{
+    position:relative;
+    left:680px;
+    top:100px;
+}
+
+#footer #logo-linkedin{
+    position:relative;
+    width:50px;
+    height:50px;
+    left: 900px;
+    top:130px;
+}
+
+#footer #logo-facebook{
+    position:relative;
+    width:50px;
+    height: 50px;
+    left:970px;
+    top:75px;
+    
+}
+
+#footer #logo-instagram{
+    position:relative;
+    width:50px;
+    height: 50px;
+    left:1040px;
+    bottom:10px;
+    top:20px;
+
+}
+
+#footer #logo-github{
+    position: relative;
+    width:50px;
+    height: 50px;
+    left:1100px;
+    bottom:35px;
+}
